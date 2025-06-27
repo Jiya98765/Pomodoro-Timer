@@ -1,0 +1,43 @@
+.container{
+    
+    margin: 0 auto;
+    max-width :400px;
+    text-align: center;
+    padding: 20px ;
+    font-family: "Roboto",sans-serif;
+    border: 5px solid #1d1a33;
+    border-radius: 10px;
+    margin-top: 100px;
+
+    
+}
+.Timer{
+    font-size: 72px;
+    color: #2c3e50;
+
+}
+
+button{
+    font-size:18px;
+    padding: 10px 20px;
+    margin: 10px;
+    color:white;
+    background-color: #2c3e50;
+    border:none;
+    /* border-redius:4px;
+    corsor : pointer ; */
+    text-transform: uppercase;
+}
+button:hover{
+    opacity: .7;
+}
+
+#start{
+    background-color: green;
+}
+#stop{
+    background-color:red;
+}
+#reset{
+    background-color: #7f8c8d;
+}
